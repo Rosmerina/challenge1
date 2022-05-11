@@ -1,0 +1,115 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:#7EB1CE;
+}
+
+.container{
+	margin:auto;
+	width:960px;
+	height:650px;
+	padding:5px;
+	
+}
+.logo{
+	width: 100%;
+	float: right;
+	
+}
+.left{
+	float: left;
+	width: 70%;
+	height: 70%;
+	border-radius: 24px;
+	
+}
+.right{
+	float: right;
+    width: 30%;
+    height: auto;
+	border-radius: 24px;
+	background: white;
+}
+.left-button{
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius:24px;
+	background: pink;
+}
+.logoimg{
+	margin-top: 1%;
+	margin-left:1%;
+    float: inherit;
+}
+.title{
+	float: inherit;
+	margin-left:5%;
+
+}
+.text-input{
+    float: left;
+    margin-left:10%;
+    margin-top:10%;
+    width:80%;
+    height:80%;
+    color:#000000;
+    font-size:20px; 
+    border: none;
+    outline: none;
+    background:#7EB1CE;
+}
+#imgDer{
+	margin-left: 2%;
+	margin-top: 20%;
+	width: 70%;
+	height: auto;
+}
+#texto{
+	margin-left: 7%;
+	margin-right: 5%;
+}
+#texto2{
+	color:#7EB1CE;
+	width: 80%;
+	height: 40%;
+	border:none;
+	outline: none;
+	font-size:15px;
+}
+.bottom: {
+    margin:auto;
+	background:#0A3871;
+}
+
+#btn-encriptar{
+	display:inline-block;
+	width: 100px;
+	height: 50px;
+	border-radius: 24px;
+    margin-left:10%;
+	background:#0A3871;
+}
+#btn-desencriptar{
+	display:inline-block;
+	width: 100px;
+	height: 50px;
+	border-radius: 24px;
+	margin-left:10%;
+	background:#D8DFD8;
+}
+#copy{
+	margin: auto;
+	width: 150px;
+	height: 50px;
+	background:#D8DFE8;
+	border-radius:24px;
+	display:block; 
+	
+}
+
+.heder {
+	display:flex;
+	height: 25px;
+	justify-content: space-between;
+}
